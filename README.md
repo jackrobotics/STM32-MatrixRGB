@@ -15,6 +15,6 @@
 ### การสั่งงานแต่ละ dot
 dots[Row][Column][RGB];
 
-//[8]:Row:8 row in LED plane
-//[8]:Column:8 column in one row
-//[3]:Color:RGB data: 0 for Red; 1 for green, 2 for Blue
+- [8]:Row:8 row in LED plane
+- [8]:Column:8 column in one row
+- [3]:Color:RGB data: 0 for Red; 1 for green, 2 for Blue
