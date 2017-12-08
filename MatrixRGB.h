@@ -1,9 +1,6 @@
 #include "mbed.h"
 /*
 #####   MatrixRGB   #################################################################
-#                                                                                   #
-#   Function : dots[Column 0-7][Row 0-7][RGB 0-2] = 0-255                           #
-#   Function : EMO(EMO 0-6,Rotation 0-3,R 0-255,G 0-255,B 0-255)                    #
 #   RST(A0);LAT(A1);SLB(A2);SDAA(D7);SCLL(D6);lineRGB(D8,D9,D10,D11,D12,D13,D3,D4); #
 #####################################################################################
 */
@@ -15,11 +12,6 @@
 */
 
 Ticker trick;   //Auto Update LED RGB Display
-/*
-#Set Main()
-#   MatrixRGB_Init();
-#   trick.attach(&Runline, 0.001);
-*/
 
 DigitalOut LED_RST(A0);
 DigitalOut LED_LAT(A1);
